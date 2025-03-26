@@ -3,8 +3,6 @@ const nextConfig = {
   /* config options here */
   output: 'export',
   distDir: process.env.NODE_ENV === "production" ? "build" : ".next",
-  basePath: process.env.NODE_ENV === "production" ? "/iamjaydesign-portfolio" : "",
-  assetPrefix: process.env.NODE_ENV === "production" ? "/iamjaydesign-portfolio/" : "",
   images: {
     unoptimized: true,
     domains: [
