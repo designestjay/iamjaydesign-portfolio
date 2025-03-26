@@ -8,6 +8,16 @@
     ],
     "cleanUrls": true,
     "trailingSlash": false,
+    "redirects": [
+      {
+        "source": "**",
+        "destination": "https://iamjaydesign.com/:path*",
+        "type": 302,
+        "condition": {
+          "bandwidth_exceeded": true
+        }
+      }
+    ],
     "rewrites": [
       {
         "source": "/works/volvo-cars-ar",
